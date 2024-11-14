@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'catalog.apps.CatalogConfig',
 ]
 
+SESSION_SAVE_EVERY_REQUEST = True
+
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
